@@ -9,7 +9,7 @@ The steps of this analysis, found in 'run_analysis.R', are as follows:
 1) Load in required files from ./UCI HAR Dataset/ using read.table(). Files are described in CODEBOOK below.
 2) Combine the test and training datasets and the activity labels and subject labels using rbind(). 
 3) rename the columns of the complete dataset using features.txt so that they are more usefully labelled.
-4) use grep() to subset the columns of the complete dataset so all that reamains are the mean and standard deviation 
+4) use grep() to subset the columns of the complete dataset so all that remains are the mean and standard deviation 
    variable for each variable
 5) Add two columns to the complete dataset: Subject and Activity
 6) create a new dataset called 'averages' which includes the average of each variable for each activity and each subject
